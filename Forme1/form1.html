@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+</head>
+
+<body>
+    <center><h1>Forma nr.1</h1>
+    <form action="multumire.html">
+        <table align="center" cellspacing="5" cellpadding="10" bgcolor="#cce6ff">
+            <tr>
+                <td>
+                    <label for="nume-prenume">Nume, Prenume</label>
+                </td>
+                <td>
+                    <input required id="nume-prenume" autofocus maxlength="20" pattern="[A-Az-z]{3,10} [A-Az-z]{3,10}">
+                </td>
+            </tr>
+            <tr>
+                <td>Data Nasterii</td>
+                <td>
+                    <input required type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Ocupatie</td>
+                <td>
+                    <select required>
+                        <option>Elev</option>
+                        <option>Student</option>
+                        <option>Angajat</option>
+                        <option>Pensionar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input required type="radio" name="gen">M
+                    <br>
+                    <input required accept=""type="radio" name="gen">F
+                    <br>
+                    <input required type="radio" name="gen">N
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Ati citit <a href="termeni.html" target="_blanck">Regulamentul</a> prezent....</b></td>
+                <td>
+                    <input required type="checkbox" checked>
+                </td>
+            </tr>
+<tr>
+    <td colspan="2" align="center"><label>Autobiografia....</label>
+        <br>
+    <textarea rows=8 cols="50">aaa</textarea>
+</td>
+</tr>
+<tr>
+    <td colspan="2" align="center"><button type="submit">Inregistrare</button></td>
+
+</tr>
+
+        </table>
+
+    </form>
+
+
+
+</body>
+
+</html>
